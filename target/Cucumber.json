@@ -1,0 +1,324 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Endpoint Configuration",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 169702399,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The endpoint is already configured",
+            "match": {
+              "location": "StepDefination.the_endpoint_is_already_configured()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 375742100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Latest Foreign Exchange Rate",
+        "description": "",
+        "id": "currency-conversion-api-test;latest-foreign-exchange-rate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2291024900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input a valid date \"latest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "latest",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefination.i_input_a_valid_date_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24817800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should have the status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefination.i_should_have_the_status_code(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Endpoint Configuration",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 462400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The endpoint is already configured",
+            "match": {
+              "location": "StepDefination.the_endpoint_is_already_configured()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 42100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Specific date Foreign Exchange rates",
+        "description": "",
+        "id": "currency-conversion-api-test;specific-date-foreign-exchange-rates",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 431625799,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I input a valid date \"2015-05-13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2015-05-13",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefination.i_input_a_valid_date_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1153200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should have the status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefination.i_should_have_the_status_code(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Endpoint Configuration",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 391800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The endpoint is already configured",
+            "match": {
+              "location": "StepDefination.the_endpoint_is_already_configured()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Specific date Foreign Exchange rates",
+        "description": "",
+        "id": "currency-conversion-api-test;specific-date-foreign-exchange-rates",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 615329601,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I input a invalid date \"13-05-2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13-05-2019",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefination.i_input_a_invalid_date(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 498301,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should have the status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefination.i_should_have_the_status_code(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Endpoint Configuration",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 342501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The endpoint is already configured",
+            "match": {
+              "location": "StepDefination.the_endpoint_is_already_configured()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Specific date Foreign Exchange rates",
+        "description": "",
+        "id": "currency-conversion-api-test;specific-date-foreign-exchange-rates",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 511643200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I input a invalid date \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefination.i_input_a_invalid_date(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 720199,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should have the status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefination.i_should_have_the_status_code(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Currency Conversion API Test",
+    "description": "",
+    "id": "currency-conversion-api-test",
+    "keyword": "Feature",
+    "uri": "CurrencyConversion.feature"
+  }
+]

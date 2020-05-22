@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="4.423539">
+<testcase classname="Currency Conversion API Test" name="Latest Foreign Exchange Rate" time="2.861287">
+<system-out><![CDATA[Given The endpoint is already configured....................................passed
+When I input a valid date "latest"..........................................passed
+Then I should have the status code "200"....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Currency Conversion API Test" name="Specific date Foreign Exchange rates" time="0.433283">
+<system-out><![CDATA[Given The endpoint is already configured....................................passed
+When I input a valid date "2015-05-13"......................................passed
+Then I should have the status code "200"....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Currency Conversion API Test" name="Specific date Foreign Exchange rates" time="0.616246">
+<system-out><![CDATA[Given The endpoint is already configured....................................passed
+When I input a invalid date "13-05-2019"....................................passed
+Then I should have the status code "400"....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Currency Conversion API Test" name="Specific date Foreign Exchange rates" time="0.512723">
+<system-out><![CDATA[Given The endpoint is already configured....................................passed
+When I input a invalid date ""..............................................passed
+Then I should have the status code "400"....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
